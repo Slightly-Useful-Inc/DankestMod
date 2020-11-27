@@ -1,4 +1,4 @@
-Args: "--in-jar", "G:\amdec\GitHub\DankestMod\build\libs\modid-1.0.jar", "--out-jar", "G:\amdec\GitHub\DankestMod\build\reobfJar\output.jar", "--srg-in", "G:\amdec\GitHub\DankestMod\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "G:\amdec\GitHub\DankestMod\build\libs\dankestmod-1.0.jar", "--out-jar", "G:\amdec\GitHub\DankestMod\build\reobfJar\output.jar", "--srg-in", "G:\amdec\GitHub\DankestMod\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\amdec\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\amdec\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.0_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.0_mapped_snapshot_20201028-1.16.3-recomp.jar
 Classpath: C:\Users\amdec\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.0_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.0_mapped_snapshot_20201028-1.16.3-launcher.jar
