@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "dankestmod:items/sock"
+    "layer0": "dankestmod:items/black_sock"
   }
 }
