@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum ItemTier implements IItemTier {
 
     CUM(5, 2000, 11.0F, 4.0F, 30, ()->{
-        return Ingredient.fromItems(RegistryHandler.CUM_SOCK.get());
+        return Ingredient.fromItems(RegistryHandler.CUM.get());
     });
 
     private final int harvestLevel;

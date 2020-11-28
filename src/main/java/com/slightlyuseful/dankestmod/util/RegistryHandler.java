@@ -6,6 +6,9 @@ import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
+import com.slightlyuseful.dankestmod.armor.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
@@ -29,9 +32,12 @@ public class RegistryHandler {
 
 
     // Tools Only
-    public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()->
-            new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
 
+
+    // Armor Only
+    public static RegistryObject<ArmorItem> CUM_HELMET = ITEMS.register("cum_helmet", ()->
+            new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.HEAD, new Item.Properties().group(DankestMod.TAB)));
 
 
     //Blocks Only
