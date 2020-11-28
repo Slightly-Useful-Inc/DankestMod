@@ -35,7 +35,7 @@ biomeBlendRadius:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:hypixel.net
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
