@@ -30,6 +30,7 @@ public class RegistryHandler {
 
     public static final RegistryObject<Item> CUM = ITEMS.register("cum", ItemBase::new);
 
+    public static final RegistryObject<Item> SOCK = ITEMS.register("sock", ItemBase::new);
 
     // Tools Only
     public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
