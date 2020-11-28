@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dankestmod:cum_block"
+    }
+  ],
+  "result":
+  {
+    "item": "dankestmod:cum",
+    "count": 9
+  }
+}

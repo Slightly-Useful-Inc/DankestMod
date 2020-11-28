@@ -4,8 +4,10 @@ import com.slightlyuseful.dankestmod.DankestMod;
 import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.items.ItemBase;
+import com.slightlyuseful.dankestmod.tools.ItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,6 +26,11 @@ public class RegistryHandler {
     // Items Only
 
     public static final RegistryObject<Item> CUM = ITEMS.register("cum", ItemBase::new);
+
+
+    // Tools Only
+    public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()->
+            new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
 
 
 
