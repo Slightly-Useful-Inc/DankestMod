@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " xx",
+    " xx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:lime_sock",
+    "count": 2
+  }
+}
