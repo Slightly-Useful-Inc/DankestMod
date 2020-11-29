@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " xx",
+    " xx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:purple_sock",
+    "count": 2
+  }
+}
