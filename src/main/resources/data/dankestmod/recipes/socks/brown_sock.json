@@ -10,12 +10,12 @@
   {
     "x":
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:brown_wool"
     }
   },
   "result":
   {
-    "item": "dankestmod:black_sock",
+    "item": "dankestmod:brown_sock",
     "count": 2
   }
 }

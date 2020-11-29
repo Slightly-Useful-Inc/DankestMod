@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " xx",
+    " xx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:cyan_sock",
+    "count": 2
+  }
+}
