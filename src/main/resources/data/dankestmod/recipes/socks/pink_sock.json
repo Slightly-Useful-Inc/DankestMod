@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " xx",
+    " xx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:pink_sock",
+    "count": 2
+  }
+}

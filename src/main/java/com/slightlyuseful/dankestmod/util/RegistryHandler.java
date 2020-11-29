@@ -30,7 +30,38 @@ public class RegistryHandler {
 
     public static final RegistryObject<Item> CUM = ITEMS.register("cum", ItemBase::new);
 
-    public static final RegistryObject<Item> SOCK = ITEMS.register("black_sock", ItemBase::new);
+    public static final RegistryObject<Item> BLACK_SOCK = ITEMS.register("black_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> WHITE_SOCK = ITEMS.register("white_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> ORANGE_SOCK = ITEMS.register("orange_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> MAGENTA_SOCK = ITEMS.register("magenta_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> LIGHT_BLUE_SOCK = ITEMS.register("light_blue_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> YELLOW_SOCK = ITEMS.register("yellow_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> LIME_SOCK = ITEMS.register("lime_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> PINK_SOCK = ITEMS.register("pink_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> GRAY_SOCK = ITEMS.register("gray_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> LIGHT_GRAY_SOCK = ITEMS.register("light_gray_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> CYAN_SOCK = ITEMS.register("cyan_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> PURPLE_SOCK = ITEMS.register("purple_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> BLUE_SOCK = ITEMS.register("blue_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> BROWN_SOCK = ITEMS.register("brown_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> GREEN_SOCK = ITEMS.register("green_sock", ItemBase::new);
+
+    public static final RegistryObject<Item> RED_SOCK = ITEMS.register("red_sock", ItemBase::new);
+
 
     // Tools Only
     public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
