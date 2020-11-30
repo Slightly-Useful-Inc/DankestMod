@@ -8,10 +8,8 @@ import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorItem;
+import net.minecraft.item.*;
 import com.slightlyuseful.dankestmod.armor.ArmorMaterial;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -70,7 +68,11 @@ public class RegistryHandler {
     public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
 
 
-    public static final RegistryObject<SwordItem> GRAPHITE_SWORD = ITEMS.register("graphite_sword", ()-> new SwordItem(ItemTier.GRAPHITE, 5, -1.5F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> GRAPHITE_SWORD = ITEMS.register("graphite_sword", ()-> new SwordItem(ItemTier.GRAPHITE, 2, 0.6F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<PickaxeItem> GRAPHITE_PICKAXE = ITEMS.register("graphite_pickaxe", ()-> new PickaxeItem(ItemTier.GRAPHITE, 0, 0.2F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<AxeItem> GRAPHITE_AXE = ITEMS.register("graphite_axe", ()-> new AxeItem(ItemTier.GRAPHITE, 5, -0.1F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<ShovelItem> GRAPHITE_SHOVEL = ITEMS.register("graphite_shovel", ()-> new ShovelItem(ItemTier.GRAPHITE, 0.5F, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<HoeItem> GRAPHITE_HOE = ITEMS.register("graphite_hoe", ()-> new HoeItem(ItemTier.GRAPHITE, -3, 2.0F, new Item.Properties().group(DankestMod.TAB)));
 
 
     // Armor Only

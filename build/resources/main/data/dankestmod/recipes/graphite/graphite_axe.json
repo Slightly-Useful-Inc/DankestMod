@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " gg",
+    " sg",
+    " s "
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "dankestmod:graphite"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:graphite_axe",
+    "count": 1
+  }
+}
