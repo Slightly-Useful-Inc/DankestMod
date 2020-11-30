@@ -69,6 +69,9 @@ public class RegistryHandler {
     // Tools Only
     public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
 
+    /*
+    public static final RegistryObject<SwordItem> GRAPHITE_SWORD = ITEMS.register("graphite_sword", ()-> new SwordItem(ItemTier.GRAPHITE, ));
+    */
 
     // Armor Only
     public static RegistryObject<ArmorItem> CUM_HELMET = ITEMS.register("cum_helmet", ()->
