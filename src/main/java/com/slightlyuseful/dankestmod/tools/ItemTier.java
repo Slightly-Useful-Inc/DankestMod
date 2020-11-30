@@ -10,12 +10,12 @@ public enum ItemTier implements IItemTier {
 
     CUM(5, 2000, 11.0F, 4.0F, 30, ()->{
         return Ingredient.fromItems(RegistryHandler.CUM.get());
-    });
-    /*
+    }),
+
     GRAPHITE(3, 1000, 7.0F, 2.0F, 15, ()->{
-        return Ingredient.fromItems(RegistryHandler.CUM.get());
+        return Ingredient.fromItems(RegistryHandler.GRAPHITE.get());
     });
-    */
+
 
     private final int harvestLevel;
     private final int maxUses;
