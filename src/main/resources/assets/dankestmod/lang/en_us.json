@@ -22,7 +22,9 @@
   "item.dankestmod.red_sock": "Red Sock",
   "item.dankestmod.graphite": "Graphite",
   "block.dankestmod.graphite_block": "Block of Graphite",
-  "item.dankestmod.graphite_sword": "Graphite Sword"
-
-
+  "item.dankestmod.graphite_sword": "Graphite Sword",
+  "item.dankestmod.graphite_pickaxe": "Graphite Pickaxe",
+  "item.dankestmod.graphite_axe": "Graphite Axe",
+  "item.dankestmod.graphite_shovel": "Graphite Shovel",
+  "item.dankestmod.graphite_hoe": "Graphite Hoe"
 }

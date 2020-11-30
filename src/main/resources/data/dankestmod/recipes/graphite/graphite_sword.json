@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " g ",
+    " g ",
+    " s "
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "dankestmod:graphite"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:graphite_sword",
+    "count": 1
+  }
+}
