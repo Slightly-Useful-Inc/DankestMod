@@ -15,6 +15,7 @@ public class Egg extends Items {
                 .food(new Food.Builder()
                         .hunger(8)
                         .saturation(12.8f)
+                        .effect(() -> new EffectInstance(Effects.SPEED, 600, 2), 1)
                         .setAlwaysEdible()
                         .build())
         );
