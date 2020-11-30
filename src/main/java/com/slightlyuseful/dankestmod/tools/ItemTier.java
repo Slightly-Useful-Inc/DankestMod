@@ -13,7 +13,7 @@ public enum ItemTier implements IItemTier {
     });
     /*
     GRAPHITE(3, 1000, 7.0F, 2.0F, 15, ()->{
-        return Ingredient.fromItems(RegistryHandler.cum.get());
+        return Ingredient.fromItems(RegistryHandler.CUM.get());
     });
     */
 
