@@ -4,7 +4,7 @@ import com.slightlyuseful.dankestmod.DankestMod;
 import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
-import com.slightlyuseful.dankestmod.items.Egg;
+//import com.slightlyuseful.dankestmod.items.Egg;
 import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
 import net.minecraft.block.Block;
@@ -64,7 +64,7 @@ public class RegistryHandler {
 
     public static final RegistryObject<Item> GRAPHITE = ITEMS.register("graphite", ItemBase::new);
 
-    public static final RegistryObject<Egg> EGG = ITEMS.register("egg", Egg::new);
+    //public static final RegistryObject<Egg> EGG = ITEMS.register("egg", Egg::new);
 
 
     // Tools Only
