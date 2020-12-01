@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dankestmod:items/sunny_side_up_egg"
+  }
+}

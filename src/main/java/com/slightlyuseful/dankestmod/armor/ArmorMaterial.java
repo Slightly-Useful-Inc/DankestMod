@@ -16,7 +16,10 @@ public enum ArmorMaterial implements IArmorMaterial {
 
 
     CUM(DankestMod.MOD_ID + ":cum", 40, new int[] {6, 8, 10, 6}, 25,
-            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0F, ()->{ return Ingredient.fromItems(RegistryHandler.CUM.get());});
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0F, ()->{ return Ingredient.fromItems(RegistryHandler.CUM.get());}),
+
+    GRAPHITE(DankestMod.MOD_ID+":graphite", 20, new int[] {2, 5, 6, 2,}, 25,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, ()->{return Ingredient.fromItems(RegistryHandler.GRAPHITE.get());});
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] {11, 16, 15, 13};
     private final String name;

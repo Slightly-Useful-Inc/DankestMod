@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "dankestmod:graphite"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:graphite_leggings",
+    "count": 1
+  }
+}

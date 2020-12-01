@@ -5,6 +5,7 @@ import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
 //import com.slightlyuseful.dankestmod.items.Egg;
+import com.slightlyuseful.dankestmod.items.SunnySideUpEgg;
 import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
 import net.minecraft.block.Block;
@@ -64,7 +65,7 @@ public class RegistryHandler {
 
     public static final RegistryObject<Item> GRAPHITE = ITEMS.register("graphite", ItemBase::new);
 
-    //public static final RegistryObject<Egg> EGG = ITEMS.register("egg", Egg::new);
+    public static final RegistryObject<SunnySideUpEgg> SIDE_UP_EGG = ITEMS.register("sunny_side_up_egg", SunnySideUpEgg::new);
 
 
     // Tools Only
@@ -81,6 +82,15 @@ public class RegistryHandler {
     // Armor Only
     public static RegistryObject<ArmorItem> CUM_HELMET = ITEMS.register("cum_helmet", ()->
             new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.HEAD, new Item.Properties().group(DankestMod.TAB)));
+
+    public static RegistryObject<ArmorItem> GRAPHITE_CHEST_PLATE = ITEMS.register("graphite_chest_plate", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_HELMET = ITEMS.register("graphite_helmet", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.HEAD, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_BOOTS = ITEMS.register("graphite_boots", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_LEGGINGS = ITEMS.register("graphite_leggings", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.LEGS, new Item.Properties().group(DankestMod.TAB)));
 
 
     //Blocks Only
