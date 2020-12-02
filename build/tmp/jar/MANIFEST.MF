@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
+Specification-Title: examplemod
+Specification-Vendor: examplemodsareus
+Specification-Version: 1
 Implementation-Title: DankestMod
 Implementation-Version: 1.0
-Specification-Vendor: examplemodsareus
-Specification-Title: examplemod
-Implementation-Timestamp: 2020-11-27T00:50:40-0500
-Specification-Version: 1
 Implementation-Vendor: examplemodsareus
+Implementation-Timestamp: 2020-12-01T19:29:16-0500
 
