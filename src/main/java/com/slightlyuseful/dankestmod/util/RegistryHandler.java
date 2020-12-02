@@ -4,7 +4,6 @@ import com.slightlyuseful.dankestmod.DankestMod;
 import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
-//import com.slightlyuseful.dankestmod.items.Egg;
 import com.slightlyuseful.dankestmod.items.SunnySideUpEgg;
 import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
