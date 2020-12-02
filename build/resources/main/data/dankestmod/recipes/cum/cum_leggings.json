@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "dankestmod:cum"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:cum_leggings",
+    "count": 1
+  }
+}
