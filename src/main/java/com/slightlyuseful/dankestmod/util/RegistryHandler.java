@@ -4,6 +4,7 @@ import com.slightlyuseful.dankestmod.DankestMod;
 import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
+import com.slightlyuseful.dankestmod.blocks.GraphiteOre;
 import com.slightlyuseful.dankestmod.items.SunnySideUpEgg;
 import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
@@ -102,11 +103,13 @@ public class RegistryHandler {
     public static final RegistryObject<Block> CUM_BLOCK = BLOCKS.register("cum_block", CumBlock::new);
 
     public static final RegistryObject<Block> GRAPHITE_BLOCK = BLOCKS.register("graphite_block", GraphiteBlock::new);
+    public static final RegistryObject <Block> GRAPHITE_ORE = BLOCKS.register("graphite_ore", GraphiteOre::new);
 
 
     //Block Items
     public static final RegistryObject<Item> CUM_BLOCK_ITEM = ITEMS.register("cum_block", ()-> new BlockItemBase(CUM_BLOCK.get()));
     public static final RegistryObject<Item> GRAPHITE_BLOCK_ITEM = ITEMS.register("graphite_block", ()->new BlockItemBase(GRAPHITE_BLOCK.get()));
+    public static final RegistryObject<Item> GRAPHITE_ORE_ITEM = ITEMS.register("graphite_ore", ()->new BlockItemBase(GRAPHITE_ORE.get()));
 
 
 

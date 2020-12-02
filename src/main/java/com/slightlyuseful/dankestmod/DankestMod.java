@@ -1,6 +1,7 @@
 package com.slightlyuseful.dankestmod;
 
 import com.slightlyuseful.dankestmod.util.RegistryHandler;
+import com.slightlyuseful.dankestmod.world.gen.OreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,7 +28,9 @@ public class DankestMod
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event) { }
+    private void setup(final FMLCommonSetupEvent event) {
+        OreGen.registerOres();
+    }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
 
