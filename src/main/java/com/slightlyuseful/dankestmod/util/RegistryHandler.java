@@ -82,6 +82,12 @@ public class RegistryHandler {
     // Armor Only
     public static RegistryObject<ArmorItem> CUM_HELMET = ITEMS.register("cum_helmet", ()->
             new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.HEAD, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> CUM_CHEST_PLATE = ITEMS.register("cum_chest_plate", ()->
+            new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> CUM_LEGGINGS = ITEMS.register("cum_leggings", ()->
+            new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.LEGS, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> CUM_BOOTS = ITEMS.register("cum_boots", ()->
+            new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
 
     public static RegistryObject<ArmorItem> GRAPHITE_CHEST_PLATE = ITEMS.register("graphite_chest_plate", ()->
             new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
