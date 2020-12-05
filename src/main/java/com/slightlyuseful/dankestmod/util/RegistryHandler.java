@@ -5,6 +5,7 @@ import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteOre;
+import com.slightlyuseful.dankestmod.items.EmeraldEgg;
 import com.slightlyuseful.dankestmod.items.SunnySideUpEgg;
 import com.slightlyuseful.dankestmod.items.ItemBase;
 import com.slightlyuseful.dankestmod.tools.ItemTier;
@@ -66,6 +67,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> GRAPHITE = ITEMS.register("graphite", ItemBase::new);
 
     public static final RegistryObject<SunnySideUpEgg> SIDE_UP_EGG = ITEMS.register("sunny_side_up_egg", SunnySideUpEgg::new);
+
+    public static final RegistryObject<EmeraldEgg> EMERALD_EGG = ITEMS.register("emerald_egg", EmeraldEgg::new);
 
 
     // Tools Only

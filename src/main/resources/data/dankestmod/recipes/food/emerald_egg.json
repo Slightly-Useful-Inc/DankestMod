@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " e ",
+    "ese",
+    " e "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "dankestmod:sunny_side_up_egg"
+    },
+    "e":
+    {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:emerald_egg",
+    "count": 1
+  }
+}
