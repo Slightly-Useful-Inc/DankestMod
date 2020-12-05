@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dankestmod:graphite_ore"
+  },
+  "result": "dankestmod:graphite",
+  "experience": 3.0,
+  "cookingtime": 400
+}

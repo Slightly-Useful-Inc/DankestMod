@@ -26,5 +26,14 @@
   "item.dankestmod.graphite_pickaxe": "Graphite Pickaxe",
   "item.dankestmod.graphite_axe": "Graphite Axe",
   "item.dankestmod.graphite_shovel": "Graphite Shovel",
-  "item.dankestmod.graphite_hoe": "Graphite Hoe"
+  "item.dankestmod.graphite_hoe": "Graphite Hoe",
+  "item.dankestmod.sunny_side_up_egg": "Sunny Side Up Egg",
+  "item.dankestmod.graphite_chest_plate": "Graphite Chest Plate",
+  "item.dankestmod.graphite_helmet": "Graphite Helmet",
+  "item.dankestmod.graphite_boots": "Graphite Boots",
+  "item.dankestmod.graphite_leggings": "Graphite Leggings",
+  "item.dankestmod.cum_chest_plate": "Cum Chest Plate",
+  "item.dankestmod.cum_leggings": "Cum Leggings",
+  "item.dankestmod.cum_boots": "Cum Boots",
+  "block.dankestmod.graphite_ore": "Graphite Ore"
 }
