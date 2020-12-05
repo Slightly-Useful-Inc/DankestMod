@@ -5,6 +5,7 @@ import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
 import com.slightlyuseful.dankestmod.blocks.CumBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
 import com.slightlyuseful.dankestmod.blocks.GraphiteOre;
+import com.slightlyuseful.dankestmod.items.Cum;
 import com.slightlyuseful.dankestmod.items.EmeraldEgg;
 import com.slightlyuseful.dankestmod.items.SunnySideUpEgg;
 import com.slightlyuseful.dankestmod.items.ItemBase;
@@ -30,7 +31,7 @@ public class RegistryHandler {
 
     // Items Only
 
-    public static final RegistryObject<Item> CUM = ITEMS.register("cum", ItemBase::new);
+    public static final RegistryObject<Item> CUM = ITEMS.register("cum", Cum::new);
 
     public static final RegistryObject<Item> BLACK_SOCK = ITEMS.register("black_sock", ItemBase::new);
 
