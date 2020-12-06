@@ -5,5 +5,5 @@ Specification-Version: 1
 Implementation-Title: DankestMod
 Implementation-Version: 1.0
 Implementation-Vendor: examplemodsareus
-Implementation-Timestamp: 2020-12-01T19:29:16-0500
+Implementation-Timestamp: 2020-12-03T18:41:48-0500
 
