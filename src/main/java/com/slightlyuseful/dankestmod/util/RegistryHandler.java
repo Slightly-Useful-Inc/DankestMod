@@ -73,7 +73,22 @@ public class RegistryHandler {
 
 
     // Tools Only
-    public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem>   WHITE_CUM_SOCK = ITEMS.register("white_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> ORANGE_CUM_SOCK = ITEMS.register("orange_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> MAGENTA_CUM_SOCK = ITEMS.register("magenta_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> LIGHT_BLUE_CUM_SOCK = ITEMS.register("light_blue_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> YELLOW_CUM_SOCK = ITEMS.register("yellow_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> PINK_CUM_SOCK = ITEMS.register("pink_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> GRAY_CUM_SOCK = ITEMS.register("gray_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> LIGHT_GRAY_CUM_SOCK = ITEMS.register("light_gray_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> CYAN_CUM_SOCK = ITEMS.register("cyan_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> PURPLE_CUM_SOCK = ITEMS.register("purple_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> BLUE_CUM_SOCK = ITEMS.register("blue_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> BROWN_CUM_SOCK = ITEMS.register("brown_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> GREEN_CUM_SOCK = ITEMS.register("green_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> RED_CUM_SOCK = ITEMS.register("red_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> BLACK_CUM_SOCK = ITEMS.register("black_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> LIME_CUM_SOCK = ITEMS.register("lime_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
 
 
     public static final RegistryObject<SwordItem> GRAPHITE_SWORD = ITEMS.register("graphite_sword", ()-> new SwordItem(ItemTier.GRAPHITE, 2, 0.6F, new Item.Properties().group(DankestMod.TAB)));
