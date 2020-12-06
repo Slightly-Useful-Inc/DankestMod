@@ -1,11 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:beef",
-      "count": 2
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    "   "
   ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:beef"
+    }
+  },
   "result":
   {
     "item": "dankestmod:fleshlight",
