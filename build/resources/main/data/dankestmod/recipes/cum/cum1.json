@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " s ",
+    "bwx",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "dankestmod:fleshlight"
+    },
+    "w":
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "s":
+    {
+      "item": "minecraft:white_wool"
+    },
+    "b":
+    {
+      "item": "minecraft:book"
+    }
+  },
+  "result":
+  {
+    "item": "dankestmod:anime_body_pillow",
+    "count": 1
+  }
+}

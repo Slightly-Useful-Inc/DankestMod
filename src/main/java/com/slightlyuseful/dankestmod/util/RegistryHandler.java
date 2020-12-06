@@ -1,10 +1,7 @@
 package com.slightlyuseful.dankestmod.util;
 
 import com.slightlyuseful.dankestmod.DankestMod;
-import com.slightlyuseful.dankestmod.blocks.BlockItemBase;
-import com.slightlyuseful.dankestmod.blocks.CumBlock;
-import com.slightlyuseful.dankestmod.blocks.GraphiteBlock;
-import com.slightlyuseful.dankestmod.blocks.GraphiteOre;
+import com.slightlyuseful.dankestmod.blocks.*;
 import com.slightlyuseful.dankestmod.items.Cum;
 import com.slightlyuseful.dankestmod.items.EmeraldEgg;
 import com.slightlyuseful.dankestmod.items.SunnySideUpEgg;
@@ -14,6 +11,7 @@ import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import com.slightlyuseful.dankestmod.armor.ArmorMaterial;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -71,6 +69,8 @@ public class RegistryHandler {
 
     public static final RegistryObject<EmeraldEgg> EMERALD_EGG = ITEMS.register("emerald_egg", EmeraldEgg::new);
 
+    public static final RegistryObject<Item> FLESHLIGHT = ITEMS.register("fleshlight", ItemBase::new);
+
 
     // Tools Only
     public static final RegistryObject<SwordItem> CUM_SOCK = ITEMS.register("cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
@@ -106,6 +106,8 @@ public class RegistryHandler {
     //Blocks Only
     public static final RegistryObject<Block> CUM_BLOCK = BLOCKS.register("cum_block", CumBlock::new);
 
+    public static final RegistryObject<Block> ANIME_BODY_PILLOW = BLOCKS.register("anime_body_pillow", AnimeBodyPillow::new);
+
     public static final RegistryObject<Block> GRAPHITE_BLOCK = BLOCKS.register("graphite_block", GraphiteBlock::new);
     public static final RegistryObject <Block> GRAPHITE_ORE = BLOCKS.register("graphite_ore", GraphiteOre::new);
 
@@ -114,7 +116,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> CUM_BLOCK_ITEM = ITEMS.register("cum_block", ()-> new BlockItemBase(CUM_BLOCK.get()));
     public static final RegistryObject<Item> GRAPHITE_BLOCK_ITEM = ITEMS.register("graphite_block", ()->new BlockItemBase(GRAPHITE_BLOCK.get()));
     public static final RegistryObject<Item> GRAPHITE_ORE_ITEM = ITEMS.register("graphite_ore", ()->new BlockItemBase(GRAPHITE_ORE.get()));
-
+    public static final RegistryObject<Item> ANIME_BODY_PILLOW_ITEM = ITEMS.register("anime_body_pillow", ()->new BlockItemBase(ANIME_BODY_PILLOW.get()));
 
 
 
