@@ -73,7 +73,7 @@ public class RegistryHandler {
 
 
     // Tools Only
-    public static final RegistryObject<SwordItem>   WHITE_CUM_SOCK = ITEMS.register("white_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
+    public static final RegistryObject<SwordItem> WHITE_CUM_SOCK = ITEMS.register("white_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
     public static final RegistryObject<SwordItem> ORANGE_CUM_SOCK = ITEMS.register("orange_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
     public static final RegistryObject<SwordItem> MAGENTA_CUM_SOCK = ITEMS.register("magenta_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
     public static final RegistryObject<SwordItem> LIGHT_BLUE_CUM_SOCK = ITEMS.register("light_blue_cum_sock", ()-> new SwordItem(ItemTier.CUM, 6, 0.0F, new Item.Properties().group(DankestMod.TAB)));
