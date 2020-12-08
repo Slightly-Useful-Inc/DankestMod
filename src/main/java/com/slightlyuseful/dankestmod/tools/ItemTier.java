@@ -1,6 +1,7 @@
 package com.slightlyuseful.dankestmod.tools;
 
 import com.slightlyuseful.dankestmod.util.RegistryHandler;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
