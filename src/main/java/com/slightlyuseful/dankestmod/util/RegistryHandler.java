@@ -92,14 +92,15 @@ public class RegistryHandler {
     public static RegistryObject<ArmorItem> CUM_BOOTS = ITEMS.register("cum_boots", ()->
             new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
 
-    public static RegistryObject<ArmorItem> GRAPHITE_CHEST_PLATE = ITEMS.register("graphite_chest_plate", ()->
-            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
+
     public static RegistryObject<ArmorItem> GRAPHITE_HELMET = ITEMS.register("graphite_helmet", ()->
             new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.HEAD, new Item.Properties().group(DankestMod.TAB)));
-    public static RegistryObject<ArmorItem> GRAPHITE_BOOTS = ITEMS.register("graphite_boots", ()->
-            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_CHEST_PLATE = ITEMS.register("graphite_chest_plate", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
     public static RegistryObject<ArmorItem> GRAPHITE_LEGGINGS = ITEMS.register("graphite_leggings", ()->
             new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.LEGS, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_BOOTS = ITEMS.register("graphite_boots", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
 
 
     //Blocks Only
