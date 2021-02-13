@@ -110,6 +110,7 @@ public class RegistryHandler {
 
     public static final RegistryObject<Block> GRAPHITE_BLOCK = BLOCKS.register("graphite_block", GraphiteBlock::new);
     public static final RegistryObject <Block> GRAPHITE_ORE = BLOCKS.register("graphite_ore", GraphiteOre::new);
+    public static final RegistryObject <Block> CHROMOSOME_ORE = BLOCKS.register("chromosome_ore", ChromosomeOre::new);
 
 
     //Block Items
@@ -117,6 +118,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> GRAPHITE_BLOCK_ITEM = ITEMS.register("graphite_block", ()->new BlockItemBase(GRAPHITE_BLOCK.get()));
     public static final RegistryObject<Item> GRAPHITE_ORE_ITEM = ITEMS.register("graphite_ore", ()->new BlockItemBase(GRAPHITE_ORE.get()));
     public static final RegistryObject<Item> ANIME_BODY_PILLOW_ITEM = ITEMS.register("anime_body_pillow", ()->new BlockItemBase(ANIME_BODY_PILLOW.get()));
+    public static final RegistryObject<Item> CHROMOSOME_ORE_ITEM = ITEMS.register("chromosome_ore", ()-> new BlockItemBase(CHROMOSOME_ORE.get()));
+
 
 
 
