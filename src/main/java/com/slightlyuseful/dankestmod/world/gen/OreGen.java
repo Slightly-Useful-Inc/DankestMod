@@ -31,6 +31,10 @@ public class OreGen {
                 OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, RegistryHandler.GRAPHITE_ORE.get().getDefaultState(), 4)) //Vein Size
                 .range(64).square() //Spawn height start
                 .func_242731_b(28))); //Chunk spawn frequency
+        overworldOres.add(register("chromosome_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
+                OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, RegistryHandler.CHROMOSOME_ORE.get().getDefaultState(),1))
+                .range(10).square()
+                .func_242731_b((int) 0.2)));
 
     }
 

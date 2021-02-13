@@ -92,14 +92,15 @@ public class RegistryHandler {
     public static RegistryObject<ArmorItem> CUM_BOOTS = ITEMS.register("cum_boots", ()->
             new ArmorItem(ArmorMaterial.CUM, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
 
-    public static RegistryObject<ArmorItem> GRAPHITE_CHEST_PLATE = ITEMS.register("graphite_chest_plate", ()->
-            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
+
     public static RegistryObject<ArmorItem> GRAPHITE_HELMET = ITEMS.register("graphite_helmet", ()->
             new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.HEAD, new Item.Properties().group(DankestMod.TAB)));
-    public static RegistryObject<ArmorItem> GRAPHITE_BOOTS = ITEMS.register("graphite_boots", ()->
-            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_CHEST_PLATE = ITEMS.register("graphite_chest_plate", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.CHEST, new Item.Properties().group(DankestMod.TAB)));
     public static RegistryObject<ArmorItem> GRAPHITE_LEGGINGS = ITEMS.register("graphite_leggings", ()->
             new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.LEGS, new Item.Properties().group(DankestMod.TAB)));
+    public static RegistryObject<ArmorItem> GRAPHITE_BOOTS = ITEMS.register("graphite_boots", ()->
+            new ArmorItem(ArmorMaterial.GRAPHITE, EquipmentSlotType.FEET, new Item.Properties().group(DankestMod.TAB)));
 
 
     //Blocks Only
@@ -109,6 +110,7 @@ public class RegistryHandler {
 
     public static final RegistryObject<Block> GRAPHITE_BLOCK = BLOCKS.register("graphite_block", GraphiteBlock::new);
     public static final RegistryObject <Block> GRAPHITE_ORE = BLOCKS.register("graphite_ore", GraphiteOre::new);
+    public static final RegistryObject <Block> CHROMOSOME_ORE = BLOCKS.register("chromosome_ore", ChromosomeOre::new);
 
 
     //Block Items
@@ -116,6 +118,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> GRAPHITE_BLOCK_ITEM = ITEMS.register("graphite_block", ()->new BlockItemBase(GRAPHITE_BLOCK.get()));
     public static final RegistryObject<Item> GRAPHITE_ORE_ITEM = ITEMS.register("graphite_ore", ()->new BlockItemBase(GRAPHITE_ORE.get()));
     public static final RegistryObject<Item> ANIME_BODY_PILLOW_ITEM = ITEMS.register("anime_body_pillow", ()->new BlockItemBase(ANIME_BODY_PILLOW.get()));
+    public static final RegistryObject<Item> CHROMOSOME_ORE_ITEM = ITEMS.register("chromosome_ore", ()-> new BlockItemBase(CHROMOSOME_ORE.get()));
+
 
 
 
