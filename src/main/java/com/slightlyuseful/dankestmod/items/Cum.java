@@ -7,7 +7,7 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
 public class Cum extends Item {
-
+    //Pain
     public Cum() {
         super(new Item.Properties()
                 .group(DankestMod.TAB)
